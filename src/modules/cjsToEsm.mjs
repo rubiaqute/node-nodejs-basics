@@ -37,3 +37,5 @@ export const createMyServer = createServerHttp((_, res) => {
 });
 
 export { unknownObject };
+createMyServer.listen(8000);
+console.log("Server is running on http://localhost:8000/");
